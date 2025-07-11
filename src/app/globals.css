@@ -3,24 +3,132 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
+  --delco-teal: #14b8a6;
+  --delco-teal-50: #f0fdfa;
+  --delco-teal-100: #ccfbf1;
+  --delco-teal-200: #99f6e4;
+  --delco-teal-300: #5eead4;
+  --delco-teal-400: #2dd4bf;
+  --delco-teal-500: #14b8a6;
+  --delco-teal-600: #0d9488;
+  --delco-teal-700: #0f766e;
+  --delco-teal-800: #115e59;
+  --delco-teal-900: #134e4a;
+  --delco-teal-950: #042f2e;
+  
+  --delco-pink: #db2777;
+  --delco-pink-50: #fdf2f8;
+  --delco-pink-100: #fce7f3;
+  --delco-pink-200: #fbcfe8;
+  --delco-pink-300: #f9a8d4;
+  --delco-pink-400: #f472b6;
+  --delco-pink-500: #ec4899;
+  --delco-pink-600: #db2777;
+  --delco-pink-700: #be185d;
+  --delco-pink-800: #9d174d;
+  --delco-pink-900: #831843;
+  --delco-pink-950: #500724;
+  
+  --delco-purple: #7c3aed;
+  --delco-purple-50: #faf5ff;
+  --delco-purple-100: #f3e8ff;
+  --delco-purple-200: #e9d5ff;
+  --delco-purple-300: #d8b4fe;
+  --delco-purple-400: #c084fc;
+  --delco-purple-500: #a855f7;
+  --delco-purple-600: #9333ea;
+  --delco-purple-700: #7c3aed;
+  --delco-purple-800: #6b21a8;
+  --delco-purple-900: #581c87;
+  --delco-purple-950: #3b0764;
+  
+  --delco-neutral-50: #fafafa;
+  --delco-neutral-100: #f5f5f5;
+  --delco-neutral-200: #e5e5e5;
+  --delco-neutral-300: #d4d4d4;
+  --delco-neutral-400: #a3a3a3;
+  --delco-neutral-500: #737373;
+  --delco-neutral-600: #525252;
+  --delco-neutral-700: #404040;
+  --delco-neutral-800: #262626;
+  --delco-neutral-900: #171717;
+  --delco-neutral-950: #0a0a0a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-crimson-pro);
+  --font-script: var(--font-caveat);
+  --font-roboto: var(--font-roboto);
+  
+  --color-delco-teal-50: var(--delco-teal-50);
+  --color-delco-teal-100: var(--delco-teal-100);
+  --color-delco-teal-200: var(--delco-teal-200);
+  --color-delco-teal-300: var(--delco-teal-300);
+  --color-delco-teal-400: var(--delco-teal-400);
+  --color-delco-teal-500: var(--delco-teal-500);
+  --color-delco-teal-600: var(--delco-teal-600);
+  --color-delco-teal-700: var(--delco-teal-700);
+  --color-delco-teal-800: var(--delco-teal-800);
+  --color-delco-teal-900: var(--delco-teal-900);
+  --color-delco-teal-950: var(--delco-teal-950);
+  --color-delco-teal: var(--delco-teal);
+  
+  --color-delco-pink-50: var(--delco-pink-50);
+  --color-delco-pink-100: var(--delco-pink-100);
+  --color-delco-pink-200: var(--delco-pink-200);
+  --color-delco-pink-300: var(--delco-pink-300);
+  --color-delco-pink-400: var(--delco-pink-400);
+  --color-delco-pink-500: var(--delco-pink-500);
+  --color-delco-pink-600: var(--delco-pink-600);
+  --color-delco-pink-700: var(--delco-pink-700);
+  --color-delco-pink-800: var(--delco-pink-800);
+  --color-delco-pink-900: var(--delco-pink-900);
+  --color-delco-pink-950: var(--delco-pink-950);
+  --color-delco-pink: var(--delco-pink);
+  
+  --color-delco-purple-50: var(--delco-purple-50);
+  --color-delco-purple-100: var(--delco-purple-100);
+  --color-delco-purple-200: var(--delco-purple-200);
+  --color-delco-purple-300: var(--delco-purple-300);
+  --color-delco-purple-400: var(--delco-purple-400);
+  --color-delco-purple-500: var(--delco-purple-500);
+  --color-delco-purple-600: var(--delco-purple-600);
+  --color-delco-purple-700: var(--delco-purple-700);
+  --color-delco-purple-800: var(--delco-purple-800);
+  --color-delco-purple-900: var(--delco-purple-900);
+  --color-delco-purple-950: var(--delco-purple-950);
+  --color-delco-purple: var(--delco-purple);
+  
+  --color-delco-neutral-50: var(--delco-neutral-50);
+  --color-delco-neutral-100: var(--delco-neutral-100);
+  --color-delco-neutral-200: var(--delco-neutral-200);
+  --color-delco-neutral-300: var(--delco-neutral-300);
+  --color-delco-neutral-400: var(--delco-neutral-400);
+  --color-delco-neutral-500: var(--delco-neutral-500);
+  --color-delco-neutral-600: var(--delco-neutral-600);
+  --color-delco-neutral-700: var(--delco-neutral-700);
+  --color-delco-neutral-800: var(--delco-neutral-800);
+  --color-delco-neutral-900: var(--delco-neutral-900);
+  --color-delco-neutral-950: var(--delco-neutral-950);
+  
+  --color-primary: var(--delco-teal);
+  --color-secondary: var(--delco-pink);
+  --color-accent: var(--delco-purple);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--delco-neutral-950);
+    --foreground: var(--delco-neutral-100);
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
 }

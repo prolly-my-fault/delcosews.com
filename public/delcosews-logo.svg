@@ -1,0 +1,5 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <text x="10" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#14b8a6">delco</text>
+  <text x="80" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#db2777">SEWS</text>
+  <line x1="10" y1="45" x2="140" y2="45" stroke="#7c3aed" stroke-width="3" stroke-dasharray="5,3"/>
+</svg>
