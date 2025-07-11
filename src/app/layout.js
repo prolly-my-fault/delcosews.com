@@ -5,12 +5,12 @@ import Footer from '@/components/Footer'
 import "./globals.css";
 
 export const metadata = {
-  title: "DelcoSEWS - Community Sewing & Craft Group",
-  description: "Join DelcoSEWS, Delaware County's premier sewing and craft community. Connect with fellow creators, share projects, and learn new skills.",
+  title: "delcoSEWS - Community Sewing & Craft Group",
+  description: "Join delcoSEWS - where we learn, create and inspire the magic of sewing! Connect with fellow creators, share projects, and learn new skills.",
   keywords: ["sewing", "crafts", "community", "Delaware County", "handmade", "DIY"],
-  authors: [{ name: "DelcoSEWS" }],
-  creator: "DelcoSEWS",
-  publisher: "DelcoSEWS",
+  authors: [{ name: "delcoSEWS" }],
+  creator: "delcoSEWS",
+  publisher: "delcoSEWS",
   formatDetection: {
     email: false,
     address: false,
@@ -21,17 +21,17 @@ export const metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "DelcoSEWS - Community Sewing & Craft Group",
-    description: "Join DelcoSEWS, Delaware County's premier sewing and craft community.",
+    title: "delcoSEWS - Community Sewing & Craft Group",
+    description: "Join delcoSEWS, where we learn, create and inspire the magic of sewing!.",
     url: "https://delcosews.com",
-    siteName: "DelcoSEWS",
+    siteName: "delcoSEWS",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "DelcoSEWS - Community Sewing & Craft Group",
-    description: "Join DelcoSEWS, Delaware County's premier sewing and craft community.",
+    title: "delcoSEWS - Community Sewing & Craft Group",
+    description: "Join delcoSEWS, where we learn, create and inspire the magic of sewing!.",
   },
   robots: {
     index: true,

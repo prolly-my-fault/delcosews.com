@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="inline-block mb-4 group">
               <div className="relative inline-block transition-all duration-300 group-hover:scale-105">
-                <span className="font-roboto text-delco-teal text-2xl font-bold transition-colors duration-300 group-hover:text-delco-teal-400">Delco</span><span className="font-script text-delco-pink text-2xl font-bold transition-colors duration-300 group-hover:text-delco-pink-400">SEWS</span>
+                <span className="font-roboto text-delco-teal text-2xl font-bold transition-colors duration-300 group-hover:text-delco-teal-400">delco</span><span className="font-script text-delco-pink text-2xl font-bold transition-colors duration-300 group-hover:text-delco-pink-400">SEWS</span>
                 <div className="absolute -bottom-0.5 left-0 right-0 h-0.5 transition-all duration-300 group-hover:h-1"
                      style={{
                        backgroundImage: 'repeating-linear-gradient(90deg, var(--delco-purple) 0px, var(--delco-purple) 6px, transparent 6px, transparent 12px)',
@@ -17,7 +17,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-delco-neutral-600 dark:text-delco-neutral-400 max-w-md">
-              Delaware County&apos;s premier sewing and craft community. Join us to connect with fellow creators, share projects, and learn new skills.
+              Where we learn, create and inspire the magic of sewing! Join us to connect with fellow creators, share projects, and learn new skills.
             </p>
           </div>
           
@@ -78,7 +78,7 @@ export default function Footer() {
         
         <div className="mt-8 pt-8 border-t border-delco-neutral-200 dark:border-delco-neutral-800">
           <p className="text-center text-delco-neutral-600 dark:text-delco-neutral-400 text-sm">
-            © {new Date().getFullYear()} DelcoSEWS. Made with ❤️ for the Delaware County creative community.
+            © {new Date().getFullYear()} delcoSEWS. Made with ❤️ for the Delaware County creative community.
           </p>
         </div>
       </div>

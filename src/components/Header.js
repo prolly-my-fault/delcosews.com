@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-3 group">
             <div className="relative inline-block transition-all duration-300 group-hover:scale-105">
-              <span className="font-roboto text-delco-teal text-xl font-bold transition-colors duration-300 group-hover:text-delco-teal-400">Delco</span><span className="font-script text-delco-pink text-xl font-bold transition-colors duration-300 group-hover:text-delco-pink-400">SEWS</span>
+              <span className="font-roboto text-delco-teal text-xl font-bold transition-colors duration-300 group-hover:text-delco-teal-400">delco</span><span className="font-script text-delco-pink text-xl font-bold transition-colors duration-300 group-hover:text-delco-pink-400">SEWS</span>
               <div className="absolute -bottom-0.5 left-0 right-0 h-0.5 transition-all duration-300 group-hover:h-1"
                    style={{
                      backgroundImage: 'repeating-linear-gradient(90deg, var(--delco-purple) 0px, var(--delco-purple) 6px, transparent 6px, transparent 12px)',
