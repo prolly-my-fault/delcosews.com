@@ -1,5 +1,7 @@
 import { inter, crimsonPro, caveat, roboto } from '@/lib/fonts'
 import { Analytics } from '@vercel/analytics/react'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 import "./globals.css";
 
 export const metadata = {
