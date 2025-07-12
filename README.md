@@ -1,10 +1,10 @@
 # delcoSEWS
 
-[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/delcosews)](https://delcosews.com)
-[![Next.js](https://img.shields.io/badge/Next.js-15.3.5-black?logo=next.js)](https://nextjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-Private-red)](./LICENSE)
+[![Deployment Status](https://img.shields.io/website?url=https%3A%2F%2Fdelcosews.com&label=deployment)](https://delcosews.com)
+[![Next.js](https://img.shields.io/github/package-json/dependency-version/prolly-my-fault/delcosews.com/next?logo=next.js&logoColor=white)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/prolly-my-fault/delcosews.com)](https://github.com/prolly-my-fault/delcosews.com/commits)
+[![GitHub repo size](https://img.shields.io/github/repo-size/prolly-my-fault/delcosews.com)](https://github.com/prolly-my-fault/delcosews.com)
 
 **Where we learn, create and inspire the magic of sewing!**
 
