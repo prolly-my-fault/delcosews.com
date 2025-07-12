@@ -18,7 +18,7 @@ export default function Home() {
           Where we learn, create and inspire the magic of sewing!
         </p>
         <div className="flex justify-center mt-8">
-          <a href="mailto:info@delcosews.com?subject=Request%20More%20Info&body=Hi%20there!%20I%27d%20love%20to%20learn%20more%20about%20delcoSEWS%20and%20how%20to%20get%20involved." className="bg-primary text-white px-8 py-4 rounded-lg font-medium border-2 border-transparent hover:border-delco-pink hover:text-delco-pink hover:bg-transparent transition-all duration-300 inline-block">
+          <a href="mailto:andrea@delcosews.com?subject=Request%20More%20Info&body=Hi%20there!%20I%27d%20love%20to%20learn%20more%20about%20delcoSEWS%20and%20how%20to%20get%20involved." className="bg-primary text-white px-8 py-4 rounded-lg font-medium border-2 border-transparent hover:border-delco-pink hover:text-delco-pink hover:bg-transparent transition-all duration-300 inline-block">
             Request more info
           </a>
         </div>

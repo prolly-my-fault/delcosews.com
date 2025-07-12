@@ -52,7 +52,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.variable} ${crimsonPro.variable} ${caveat.variable} ${roboto.variable} antialiased`}
       >
+        {/* <Header /> */}
         {children}
+        {/* <Footer /> */}
         <Analytics />
       </body>
     </html>
