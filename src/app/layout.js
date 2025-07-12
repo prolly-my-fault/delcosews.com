@@ -7,6 +7,9 @@ import "./globals.css";
 export const metadata = {
   title: "delcoSEWS - Where we learn, create and inspire the magic of sewing!",
   description: "Where we learn, create and inspire the magic of sewing! Connect with fellow creators, share projects, and learn new skills.",
+  icons: {
+    icon: '/favicon.svg',
+  },
   keywords: ["sewing", "crafts", "community", "Delaware County", "handmade", "DIY"],
   authors: [{ name: "delcoSEWS" }],
   creator: "delcoSEWS",
