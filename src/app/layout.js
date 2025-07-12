@@ -1,5 +1,7 @@
 import { inter, crimsonPro, caveat, roboto } from '@/lib/fonts'
 import { Analytics } from '@vercel/analytics/react'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 import "./globals.css";
 
 export const metadata = {
@@ -50,7 +52,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.variable} ${crimsonPro.variable} ${caveat.variable} ${roboto.variable} antialiased`}
       >
+        <Header />
         {children}
+        <Footer />
         <Analytics />
       </body>
     </html>
