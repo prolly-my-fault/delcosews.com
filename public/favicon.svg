@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black circle background -->
+  <circle cx="16" cy="16" r="16" fill="#1a1a1a" />
+  
+  <!-- Letter "d" in Roboto style - teal color, larger and bolder -->
+  <text x="7" y="22" font-family="Roboto, sans-serif" font-size="18" font-weight="900" fill="#14b8a6">d</text>
+  
+  <!-- Letter "S" in Caveat style - pink color, larger and bolder -->
+  <text x="17" y="23" font-family="Caveat, cursive" font-size="20" font-weight="700" fill="#db2777">S</text>
+</svg>
