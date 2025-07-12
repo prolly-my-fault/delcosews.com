@@ -85,4 +85,4 @@ Always make changes on `develop` first, then promote to `main`.
 
 ## 📧 Contact
 
-Questions about delcoSEWS? Email: [andrea@delcosews.com](mailto:andrea@delcosews.com)
+Questions about delcoSEWS? Visit our website: [delcosews.com](https://delcosews.com)
