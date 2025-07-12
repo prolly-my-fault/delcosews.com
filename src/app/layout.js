@@ -5,8 +5,8 @@ import Footer from '@/components/Footer'
 import "./globals.css";
 
 export const metadata = {
-  title: "delcoSEWS - Community Sewing & Craft Group",
-  description: "Join delcoSEWS - where we learn, create and inspire the magic of sewing! Connect with fellow creators, share projects, and learn new skills.",
+  title: "delcoSEWS - Where we learn, create and inspire the magic of sewing!",
+  description: "Where we learn, create and inspire the magic of sewing! Connect with fellow creators, share projects, and learn new skills.",
   keywords: ["sewing", "crafts", "community", "Delaware County", "handmade", "DIY"],
   authors: [{ name: "delcoSEWS" }],
   creator: "delcoSEWS",
@@ -22,7 +22,7 @@ export const metadata = {
   },
   openGraph: {
     title: "delcoSEWS - Community Sewing & Craft Group",
-    description: "Join delcoSEWS, where we learn, create and inspire the magic of sewing!.",
+    description: "Join delcoSEWS, where we learn, create and inspire the magic of sewing!",
     url: "https://delcosews.com",
     siteName: "delcoSEWS",
     locale: "en_US",
@@ -31,7 +31,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "delcoSEWS - Community Sewing & Craft Group",
-    description: "Join delcoSEWS, where we learn, create and inspire the magic of sewing!.",
+    description: "Join delcoSEWS, where we learn, create and inspire the magic of sewing!",
   },
   robots: {
     index: true,
