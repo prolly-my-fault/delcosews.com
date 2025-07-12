@@ -7,7 +7,11 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:md": "markdownlint *.md",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
@@ -20,6 +24,25 @@
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "markdownlint-cli": "^0.45.0",
+    "prettier": "^3.6.2",
     "tailwindcss": "^4"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{json,css}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.md": [
+      "markdownlint --fix",
+      "prettier --write",
+      "git add"
+    ]
   }
 }

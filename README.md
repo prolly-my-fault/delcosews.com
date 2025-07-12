@@ -8,12 +8,13 @@
 
 **Where we learn, create and inspire the magic of sewing!**
 
-A modern, responsive website for Delaware County's premier sewing and craft community. Built with Next.js 15, Tailwind CSS 4, and custom branding.
+A modern, responsive website for Delaware County's premier sewing and craft community.
+Built with Next.js 15, Tailwind CSS 4, and custom branding.
 
 ## 🎨 Brand Colors
 
 - **Teal**: `#14b8a6` (delco)
-- **Pink**: `#db2777` (SEWS) 
+- **Pink**: `#db2777` (SEWS)
 - **Purple**: `#7c3aed` (accent/underlines)
 
 ## 🔤 Typography
@@ -33,7 +34,7 @@ A modern, responsive website for Delaware County's premier sewing and craft comm
 
 ## 📁 Project Structure
 
-```
+```text
 src/
 ├── app/
 │   ├── layout.js          # Root layout with fonts & metadata
@@ -67,12 +68,21 @@ npm run lint
 
 Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-## 🌳 Git Workflow
+## 🌳 Git Workflow & Deployment
+
+### Branch Structure
 
 - **develop**: Development branch for testing changes
 - **main**: Production branch (auto-deploys to Vercel)
 
-Always make changes on `develop` first, then promote to `main`.
+### Deployment URLs
+
+- **Production**: [delcosews.com](https://delcosews.com) (main branch)
+- **Preview**: [delcosews-e9vsjrvb2-pmf-team.vercel.app](https://delcosews-e9vsjrvb2-pmf-team.vercel.app)
+  (develop branch)
+- **Vercel Dashboard**: [vercel.com/pmf-team/delcosews](https://vercel.com/pmf-team/delcosews)
+
+Always develop on `develop` first, then merge to `main` for production.
 
 ## 🎯 Features
 
@@ -85,4 +95,4 @@ Always make changes on `develop` first, then promote to `main`.
 
 ## 📧 Contact
 
-Questions about delcoSEWS? Email: [andrea@delcosews.com](mailto:andrea@delcosews.com)
+Questions about delcoSEWS? Visit our website: [delcosews.com](https://delcosews.com)
