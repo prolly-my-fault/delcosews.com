@@ -1,9 +1,11 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  
+  --input-bg: #ffffff;
+  --hover-bg: #f5f5f5;
+
   --delco-teal: #14b8a6;
   --delco-teal-50: #f0fdfa;
   --delco-teal-100: #ccfbf1;
@@ -16,7 +18,7 @@
   --delco-teal-800: #115e59;
   --delco-teal-900: #134e4a;
   --delco-teal-950: #042f2e;
-  
+
   --delco-pink: #db2777;
   --delco-pink-50: #fdf2f8;
   --delco-pink-100: #fce7f3;
@@ -29,7 +31,7 @@
   --delco-pink-800: #9d174d;
   --delco-pink-900: #831843;
   --delco-pink-950: #500724;
-  
+
   --delco-purple: #7c3aed;
   --delco-purple-50: #faf5ff;
   --delco-purple-100: #f3e8ff;
@@ -42,7 +44,7 @@
   --delco-purple-800: #6b21a8;
   --delco-purple-900: #581c87;
   --delco-purple-950: #3b0764;
-  
+
   --delco-neutral-50: #fafafa;
   --delco-neutral-100: #f5f5f5;
   --delco-neutral-200: #e5e5e5;
@@ -59,11 +61,13 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-input-bg: var(--input-bg);
+  --color-hover-bg: var(--hover-bg);
   --font-sans: var(--font-inter);
   --font-serif: var(--font-crimson-pro);
   --font-script: var(--font-caveat);
   --font-roboto: var(--font-roboto);
-  
+
   --color-delco-teal-50: var(--delco-teal-50);
   --color-delco-teal-100: var(--delco-teal-100);
   --color-delco-teal-200: var(--delco-teal-200);
@@ -76,7 +80,7 @@
   --color-delco-teal-900: var(--delco-teal-900);
   --color-delco-teal-950: var(--delco-teal-950);
   --color-delco-teal: var(--delco-teal);
-  
+
   --color-delco-pink-50: var(--delco-pink-50);
   --color-delco-pink-100: var(--delco-pink-100);
   --color-delco-pink-200: var(--delco-pink-200);
@@ -89,7 +93,7 @@
   --color-delco-pink-900: var(--delco-pink-900);
   --color-delco-pink-950: var(--delco-pink-950);
   --color-delco-pink: var(--delco-pink);
-  
+
   --color-delco-purple-50: var(--delco-purple-50);
   --color-delco-purple-100: var(--delco-purple-100);
   --color-delco-purple-200: var(--delco-purple-200);
@@ -102,7 +106,7 @@
   --color-delco-purple-900: var(--delco-purple-900);
   --color-delco-purple-950: var(--delco-purple-950);
   --color-delco-purple: var(--delco-purple);
-  
+
   --color-delco-neutral-50: var(--delco-neutral-50);
   --color-delco-neutral-100: var(--delco-neutral-100);
   --color-delco-neutral-200: var(--delco-neutral-200);
@@ -114,21 +118,25 @@
   --color-delco-neutral-800: var(--delco-neutral-800);
   --color-delco-neutral-900: var(--delco-neutral-900);
   --color-delco-neutral-950: var(--delco-neutral-950);
-  
+
   --color-primary: var(--delco-teal);
   --color-secondary: var(--delco-pink);
   --color-accent: var(--delco-purple);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: var(--delco-neutral-950);
-    --foreground: var(--delco-neutral-100);
-  }
+.dark {
+  --background: var(--delco-neutral-950);
+  --foreground: var(--delco-neutral-100);
+  --input-bg: var(--delco-neutral-800);
+  --hover-bg: var(--delco-neutral-800);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  font-family:
+    var(--font-inter),
+    system-ui,
+    -apple-system,
+    sans-serif;
 }

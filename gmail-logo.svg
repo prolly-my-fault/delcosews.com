@@ -1,0 +1,30 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular background -->
+  <circle cx="64" cy="64" r="64" fill="#f8fafc"/>
+  
+  <!-- Main text circle -->
+  <circle cx="64" cy="64" r="56" fill="white" stroke="#e5e7eb" stroke-width="1"/>
+  
+  <!-- delco text -->
+  <text x="64" y="45" 
+        font-family="Inter, sans-serif" 
+        font-size="26" 
+        font-weight="600" 
+        fill="#14b8a6" 
+        text-anchor="middle">delco</text>
+  
+  <!-- Purple accent line between words -->
+  <line x1="30" y1="64" x2="98" y2="64" 
+        stroke="#7c3aed" 
+        stroke-width="2" 
+        stroke-dasharray="4,2"/>
+  
+  <!-- SEWS text -->
+  <text x="64" y="90" 
+        font-family="Inter, sans-serif" 
+        font-size="24" 
+        font-weight="700" 
+        font-style="italic"
+        fill="#db2777" 
+        text-anchor="middle">SEWS</text>
+</svg>
